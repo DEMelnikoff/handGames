@@ -434,8 +434,8 @@ var exp = (function() {
 
         <p><strong>Thank you for playing ` + fullName + `!</strong></p>
 
-        <p>While playing ` + fullName + `, to what extent did you feel immersed and engaged in what you were doing? 
-        Report the degree to which you felt immersed and engaged by answering the following questions.</p></div>`;
+        <p>In your opinion, how immersive and engaging was ` + fullName + `? 
+        Report the degree to which ` + fullName + ` was immersive and engaging by answering the following questions.</p></div>`;
         this.questions = [
             {prompt: 'During ' + fullName + ', to what extent did you feel immersed in what you were doing?',
             name: 'F_immersed_' + shortName,
@@ -459,7 +459,7 @@ var exp = (function() {
         this.preamble = `<div class='qInfo'>
 
         <p>Below are a few more questions about ` + fullName + `. Instead of asking about immersion and engagement, 
-        these questions ask about <strong>enjoyment</strong>. Report how much you enjoyed playing ` + fullName + ` by answering the following questions.</p></div>`;
+        these questions ask about <strong>enjoyment</strong>. Report the degree to which ` + fullName + ` was enjoyable by answering the following questions.</p></div>`;
         this.questions = [
             {prompt: 'How much did you enjoy playing ' + fullName + '?',
             name: 'E_enjoyable_' + shortName,
